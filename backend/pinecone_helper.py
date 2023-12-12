@@ -6,6 +6,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores.pinecone import Pinecone
 from fastapi import HTTPException
 
+
 load_dotenv()
 
 index_name = os.getenv('PINECONE_INDEX')
